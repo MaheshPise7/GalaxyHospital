@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/title_home" />
+
+        <item
+            android:id="@+id/nav_apnt"
+            android:checked="true"
+            android:icon="@drawable/ic_action_aptmt"
+            android:title="@string/nav_item_apnt" />
+
+        <item
+            android:id="@+id/nav_health"
+            android:checked="true"
+            android:icon="@drawable/ic_action_name"
+            android:title="@string/nav_item_health" />
+        </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cntct"
+            android:checked="true"
+            android:icon="@drawable/ic_action_contact"
+            android:title="@string/nav_item_cntct" />
+        <item
+            android:id="@+id/nav_about"
+            android:checked="true"
+            android:icon="@drawable/ic_action_abt"
+            android:title="@string/nav_item_abount" />
+    </group>
+
+
+</menu>

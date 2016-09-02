@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Galaxy</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="one">Tab One</string>
+    <string name="two">Tab Two</string>
+    <string name="three">Tab Three</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_health">Health Tips</string>
+    <string name="nav_item_apnt">Appointment</string>
+    <string name="nav_item_abount">About</string>
+    <string name="nav_item_cntct">Contact</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_health</item>
+        <item>@string/nav_item_apnt</item>
+        <item>@string/nav_item_cntct</item>
+        <item>@string/nav_item_apnt</item>
+    </string-array>
+    <integer-array name="nav_drawer_images">
+        <item>@drawable/ic_action_home</item>
+        <item>@drawable/ic_action_name</item>
+        <item>@drawable/ic_action_aptmt</item>
+        <item>@drawable/ic_action_abt</item>
+        <item>@drawable/ic_action_contact</item>
+
+    </integer-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
